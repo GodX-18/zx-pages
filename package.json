@@ -1,0 +1,35 @@
+{
+  "name": "zx-pages",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "zx-pages",
+    "zce"
+  ],
+  "repository": "zx/zx-pages",
+  "license": "MIT",
+  "author": "GodX <1046529973@qq.com> (https://github.com/GodX-18/zx-pages)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.4"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
