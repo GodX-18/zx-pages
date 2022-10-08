@@ -1,6 +1,6 @@
 {
   "name": "zx-pages",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Awesome node modules.",
   "keywords": [
     "zx-pages",
@@ -14,7 +14,7 @@
     "lib",
     "bin"
   ],
-  "bin":"bin/zx-pages.js",
+  "bin": "bin/zx-pages.js",
   "scripts": {
     "lint": "standard --fix",
     "prepare": "npm run lint"
