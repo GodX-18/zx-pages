@@ -11,8 +11,10 @@
   "author": "GodX <1046529973@qq.com> (https://github.com/GodX-18/zx-pages)",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
+  "bin":"bin/zx-pages.js",
   "scripts": {
     "lint": "standard --fix",
     "prepare": "npm run lint"
@@ -22,7 +24,25 @@
       "zce"
     ]
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "browser-sync": "^2.27.10",
+    "dart-sass": "^1.25.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-load-plugins": "^2.0.8",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^3.1.6"
+  },
   "devDependencies": {
     "standard": "16.0.4"
   },
